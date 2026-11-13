@@ -1,4 +1,6 @@
-# Claude Usage Monitor
+<p align="center"><img src="docs/icon.png" alt="Claude Usage Monitor icon" width="96"></p>
+
+<h1 align="center">Claude Usage Monitor</h1>
 
 > **Linux only, and unofficial.** Not affiliated with or endorsed by Anthropic. It reads the same usage numbers Claude Code shows in `/usage`, from an **undocumented** endpoint that Anthropic can change or remove at any time.
 
