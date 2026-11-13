@@ -19,7 +19,7 @@ from gi.repository import Gtk, Adw, GLib, Gio, Gdk
 
 CRED = os.path.expanduser("~/.claude/.credentials.json")
 URL = "https://api.anthropic.com/api/oauth/usage"
-POLL_SECONDS = 30
+POLL_SECONDS = 90
 DEMO = "--demo" in sys.argv
 
 # (api key, label)

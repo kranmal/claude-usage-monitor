@@ -16,7 +16,7 @@ A small, **semi-transparent desktop widget** that shows how much of your Claude 
 | **Weekly, Sonnet / Opus** | shown only if your plan reports separate limits for them |
 | **Tray icon** | a ring that shrinks as the session runs down, with the % left in the middle. Colour changes at 70 % and 90 % used. Tooltip lists every limit |
 | **Alerts** | one desktop notification per window when a limit reaches 90 % used |
-| **Auto refresh** | every 30 seconds; countdowns tick every second |
+| **Auto refresh** | every 90 seconds; countdowns tick every second |
 | **Small + transparent** | about 300 × 135 px, 55 % opaque. Drag anywhere to move it |
 | **Tray menu** | right-click: show/hide, refresh now, quit. Closing the window hides it to the tray |
 
