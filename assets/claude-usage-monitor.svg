@@ -1,11 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#e8a06b"/><stop offset="1" stop-color="#d97757"/>
+    <radialGradient id="bg" cx="0.35" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#34363f"/><stop offset="1" stop-color="#17181c"/>
+    </radialGradient>
+    <linearGradient id="arc" gradientUnits="userSpaceOnUse" x1="24" y1="18" x2="104" y2="100">
+      <stop offset="0" stop-color="#ffc58a"/><stop offset="1" stop-color="#d97757"/>
     </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff8ee"/><stop offset="1" stop-color="#f0c9a6"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5"/>
+    </filter>
   </defs>
-  <circle cx="64" cy="64" r="60" fill="#1f2025"/>
-  <circle cx="64" cy="64" r="44" fill="none" stroke="#3a3c46" stroke-width="12"/>
-  <path d="M64 20 A44 44 0 1 1 20 64" fill="none" stroke="url(#g)" stroke-width="12" stroke-linecap="round"/>
-  <polygon points="71,35 47,70 62,70 57,94 81,58 66,58" fill="#f4f1ec"/>
+  <circle cx="64" cy="64" r="61" fill="url(#bg)"/>
+  <circle cx="64" cy="64" r="60" fill="none" stroke="#ffffff" stroke-opacity=".10" stroke-width="1.5"/>
+  <circle cx="64" cy="64" r="56" fill="none" stroke="#ffffff" stroke-opacity=".28" stroke-width="3" stroke-dasharray="1.6 8.09" transform="rotate(-90 64 64)"/>
+  <circle cx="64" cy="64" r="43" fill="none" stroke="#ffffff" stroke-opacity=".09" stroke-width="11"/>
+  <path d="M64 21 A43 43 0 1 1 21 64" fill="none" stroke="#d97757" stroke-opacity=".7" stroke-width="11" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M64 21 A43 43 0 1 1 21 64" fill="none" stroke="url(#arc)" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="21" cy="64" r="2.6" fill="#fff8ee"/>
+  <path d="M71 36 L49 69 H63 L57 92 L80 58 H66 Z" fill="url(#bolt)" stroke="#1f2025" stroke-opacity=".35" stroke-width="1" stroke-linejoin="round"/>
 </svg>
