@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Claude Usage
+Comment=Session and weekly Claude usage limits
+Exec=@EXEC@
+Icon=claude-usage-monitor
+Terminal=false
+Categories=Utility;System;Monitor;
+StartupWMClass=local.claude.UsageMonitor
